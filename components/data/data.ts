@@ -3,7 +3,7 @@ import { AboutData } from "@/app/lib/types";
 
 export const stats = [
   { id: 1, value: 2300, title: "Clients", start: 2200, suffix: "+" },
-  { id: 2, value: 22, title: "Projects", start: 1, suffix: "J+" },
+  { id: 2, value: 22, title: "Projects", start: 1, suffix: "K+" },
   { id: 3, value: 200, title: "Team Members", start: 2, suffix: "+" },
 ];
 

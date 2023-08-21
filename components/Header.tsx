@@ -74,7 +74,7 @@ const Header = () => {
               <div className="flex flex-col items-center justify-center border border-slate-300 w-[250px] h-[250px] rounded-lg">
                 <span
                   ref={countUpRef}
-                  className="text-6xl text-orange-600 font-bold mb-3"
+                  className="text-6xl text-teal-500 font-bold mb-3"
                 />
 
                 <span className="text-xl text-gray-600 font-semibold">

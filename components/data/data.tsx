@@ -1,9 +1,11 @@
 import { AboutData } from "@/app/lib/types";
-// import { LuSmartphoneNfc } from "react-icons/lu";
+import { FaUserCheck } from "react-icons/fa";
+import { LuSmartphoneNfc } from "react-icons/lu";
+import { SiFsecure } from "react-icons/si";
 
 export const stats = [
-  { id: 1, value: 2300, title: "Clients", start: 2200, suffix: "+" },
-  { id: 2, value: 22, title: "Projects", start: 1, suffix: "K+" },
+  { id: 1, value: 120, title: "Clients", start: 10, suffix: "+" },
+  { id: 2, value: 110, title: "Projects", start: 1, suffix: "+" },
   { id: 3, value: 200, title: "Team Members", start: 2, suffix: "+" },
 ];
 
@@ -12,19 +14,19 @@ export const aboutData: AboutData[] = [
     id: 1,
     title: "Smart, Seamless Operations",
     text: "In this category, we focus on developing software solutions that optimize and streamline your business operations.",
-    icon: `<LuSmartphoneNfc />`,
+    icon: <LuSmartphoneNfc />,
   },
   {
     id: 2,
     title: "Empowering User Experiences",
     text: "This category revolves around creating intuitive and user-centric software applications.",
-    icon: `<FaUserCheck />`,
+    icon: <FaUserCheck />,
   },
   {
     id: 3,
     title: "Secure Software Solutions",
     text: "Security is paramount in the digital world, and this category is dedicated to providing robust software solutions.",
-    icon: `<LuSmartphoneNfc />`,
+    icon: <SiFsecure />,
   },
 ];
 

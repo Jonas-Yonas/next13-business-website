@@ -77,51 +77,51 @@ export const teamMembers = [
     name: "Jonathan Brown",
     title: "CEO/Founder",
     email: "jbrown@yahoomail.com",
-    image: "/brown.png",
+    image: "/son.jpg",
   },
   {
     id: 2,
     name: "Francisco N. Wolfe",
     title: "Senior Software Engineer",
     email: "francisconwolfe@yahoomail.com",
-    image: "/tim.png",
+    image: "/tim.jpg",
   },
   {
     id: 3,
     name: "Danielle R. Doe",
     title: "Graphics/HR Manager",
     email: "dnielledoe@gmail.com",
-    image: "/ellen.png",
+    image: "/emma.jpg",
   },
   {
     id: 4,
     name: "Phillip J. Carter",
     title: "UX/UI Designer",
     email: "ruths@gmail.com",
-    image: "/ruth.png",
+    image: "/daniel.jpg",
   },
   {
     id: 5,
     name: "Hanna C. Freeman",
     title: "Product Owner",
     email: "hannacman@gmail.com",
-    image: "/hanna.png",
+    image: "/linda.jpg",
   },
   {
     id: 6,
-    name: "Fred K. Santiago",
+    name: "Hellen K. Santiago",
     title: "QA Engineer",
     email: "fredsante@yahoomail.com",
-    image: "/fred.png",
+    image: "/hellen.jpg",
   },
 ];
 
 export const reviews = [
   {
     id: 1,
-    name: "John Smith",
+    name: "Anna Smith",
     rating: 5,
-    image: "/smith.png",
+    image: "/anna.jpg",
     review:
       "Nexus Solutions delivered an exceptional custom software solution that perfectly met our business needs. Their team was highly profession, efficient, and responsive throughout the entire development process. We are extremely satisfied with the results and would highly recommend their services.",
   },
@@ -129,15 +129,15 @@ export const reviews = [
     id: 2,
     name: "Emily Johnson",
     rating: 4.5,
-    image: "/emily.png",
+    image: "/emily.jpg",
     review:
       "I hired Nexus Solutions for mobile app development, and they exceeded my expectations. Their team displayed excellent technical expertise and attention to detail. The app they developed for us is user-friendly and visually appealing. I appreciate their dedication and commitment to delivering a high-quality product.",
   },
   {
     id: 3,
-    name: "David Thompson",
+    name: "Grace Thompson",
     rating: 4,
-    image: "/david.png",
+    image: "/grace.jpg",
     review:
       "Nexus Solutions created a stunning website for our business. Their web development services are top-notch, and they successfully brought our vision to life. The team ensured a smooth user experience and incorporated all the features we requested. We are delighted with their work and would gladly collaborate with them again.",
   },
@@ -145,23 +145,23 @@ export const reviews = [
     id: 4,
     name: "Sarah Wilson",
     rating: 5,
-    image: "/wilson.png",
+    image: "/sarah.jpg",
     review:
       "Working with Nexus Solutions on our e-commerce platform was a fantastic experience. They delivered a secure and scalable solution that has significantly boosted our online sales. Their attention to detail and ability to understand our business requirements were commendable. We highly recommend their e-commerce services.",
   },
   {
     id: 5,
-    name: "Alex Turner",
+    name: "Sophia Turner",
     rating: 4.5,
-    image: "/alex.png",
+    image: "/sophia.jpg",
     review:
       "The UX/UI design services provided by Nexus Solutions were outstanding. They truly understood our brand identity and crafted visually stunning interfaces that are both aesthetically pleasing and intuitive. Our customers love the new look, and we've seen increased engagement as a result. Thank you, Nexus Solutions.",
   },
   {
     id: 6,
-    name: "Jennifer Miller",
+    name: "Elizabeth Miller",
     rating: 4,
-    image: "/miller.png",
+    image: "/elizabeth.jpg",
     review:
       "Nexus Solutions software testing and quality assurance team played a crucial role in ensuring the reliability of our application. They meticulously tested every aspect, identifying and addressing potential issues before launch. Their expertise and attention to detail gave us confidence in the performance and security of our software.",
   },

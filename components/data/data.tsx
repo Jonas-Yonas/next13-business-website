@@ -1,5 +1,7 @@
 import { AboutData } from "@/app/lib/types";
-import { FaUserCheck } from "react-icons/fa";
+import { AiOutlineAntDesign } from "react-icons/ai";
+import { BsCartCheckFill, BsGlobe2, BsPhone } from "react-icons/bs";
+import { FaLaptopCode, FaUserCheck } from "react-icons/fa";
 import { LuSmartphoneNfc } from "react-icons/lu";
 import { SiFsecure } from "react-icons/si";
 
@@ -35,37 +37,37 @@ export const serviceData = [
     id: 1,
     title: "Custom Software Development",
     text: "Tailor-made solutions designed to meet your specific business requirements, providing enhanced functionality and scalability.",
-    icon: "Laptop",
+    icon: <FaLaptopCode />,
   },
   {
     id: 2,
     title: "Mobile App Development",
     text: "Create engaging and intuitive mobile applications for iOS and Android platforms, empowering you to connect with your target audience on the go.",
-    icon: "Phone",
+    icon: <BsPhone />,
   },
   {
     id: 3,
     title: "Web Development",
     text: "Develop visually appealing and user-friendly websites that effectively showcase your brand, products, and services, while ensuring a seamless browsing experience.",
-    icon: "Website",
+    icon: <BsGlobe2 />,
   },
   {
     id: 4,
     title: "E-commerce Solutions",
     text: "Build robust and secure e-commerce platforms, enabling you to expand your online presence, streamline sales processes, and maximize revenue.",
-    icon: "Cart",
+    icon: <BsCartCheckFill />,
   },
   {
     id: 5,
     title: "UX/UI Design",
     text: "Craft visually stunning and user-centric interfaces that enhance user experience, improve customer engagement, and drive brand loyalty.",
-    icon: "Ant Design",
+    icon: <AiOutlineAntDesign />,
   },
   {
     id: 6,
     title: "Software Testing and Quality Assurance",
     text: "Conduct comprehensive testing and quality assurance processes to ensure the reliability, performance, and security of your software applications, minimizing risks and maximizing customer satisfaction.",
-    icon: "Secure",
+    icon: <SiFsecure />,
   },
 ];
 

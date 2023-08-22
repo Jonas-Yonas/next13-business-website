@@ -32,7 +32,7 @@ const Header = () => {
           <div className="flex">
             <CustomButton
               title="Get Started"
-              containerStyle={`bg-[#7E22CE] text-white px-6 py-3 font-semibold text-lg rounded-md hover:bg-blue-800`}
+              containerStyle={`bg-[#7E22CE] text-white px-6 py-3 font-semibold text-lg rounded-md hover:bg-purple-900`}
               iconRight={<BsArrowUpRight size={22} />}
             />
           </div>

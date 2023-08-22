@@ -2,14 +2,14 @@
 
 import { ReactNode, useState } from "react";
 
-interface ICard {
+interface ICardProps {
   id?: number;
   title: string;
   icon: ReactNode;
   text: string;
 }
 
-const Card = (props: ICard) => {
+const Card = (props: ICardProps) => {
   const { title, icon: Icon, text } = props;
 
   const [showFull, setShowFull] = useState(false);

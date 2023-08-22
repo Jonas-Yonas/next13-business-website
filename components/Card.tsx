@@ -18,7 +18,7 @@ const Card = (props: ICard) => {
     setShowFull((prev) => !prev);
   };
 
-  const cardClasses = `w-full h-[17rem] bg-[#001a36] border border-gray-400 rounded-lg shadow-md p-4 py-6 ease-in-out duration-300 hover:scale-105 hover:cursor-pointer overflow-hidden`;
+  const cardClasses = `w-full h-[17rem] bg-[#001a36] border border-gray-400 rounded-lg shadow-md p-4 py-6 ease-in-out duration-300 hover:scale-105 hover:cursor-pointer overflow-hidden hover:shadow-indigo-500/50 hover:shadow-2xl`;
 
   return (
     <div

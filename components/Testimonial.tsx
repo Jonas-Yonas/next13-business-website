@@ -65,7 +65,9 @@ const Testimonial = () => {
 
                   <div className="w-full flex flex-grow flex-col gap-2 py-2">
                     <p className="text-xl font-semibold">{name}</p>
-                    <span>{review.slice(0, 155)}</span>
+                    <span className="text-slate-500 text-sm leading-relaxed">
+                      {review.slice(0, 155)}
+                    </span>
                   </div>
                 </div>
               </div>

@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { AiFillStar } from "react-icons/ai";
+// @ts-ignore
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import { reviews } from "./data/data";

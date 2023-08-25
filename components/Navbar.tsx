@@ -17,7 +17,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="text-gray-700 border-b border-gray-200">
+    <header className="text-gray-700 border-b border-gray-200 main-header">
       <nav className="container mx-auto flex p-5 flex-row justify-between">
         <Link
           href={`/`}

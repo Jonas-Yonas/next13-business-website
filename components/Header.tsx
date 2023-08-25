@@ -5,7 +5,7 @@ import { CustomButton } from ".";
 import Image from "next/image";
 
 import hero from "../assets/images/hero.png";
-import tina from "../assets/images/tina.jpg";
+import dagi from "../assets/images/dagi.jpg";
 import ella from "../assets/images/ella.jpg";
 import DevCard from "./DevCard";
 import { stats } from "./data/data";
@@ -14,7 +14,7 @@ import CountUp from "react-countup";
 const Header = () => {
   return (
     <>
-      <div className="container mx-auto flex py-8 2xl:pt-20 md:flex-row flex-col items-center">
+      <div className="container mx-auto flex py-8 2xl:pt-20 md:flex-row flex-col items-center pt-14">
         {/* left section */}
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col mb-16 md:mb-0">
           <h1 className="text-3xl md:text-4xl mb-4 font-bold text-slate-600 leading-[3rem] 2xl:leading-[4rem]">
@@ -43,16 +43,16 @@ const Header = () => {
           <Image src={hero} width={500} height={500} alt="Nexus Solutions" />
 
           <DevCard
-            imgURL={tina}
-            devName="Tina B. Nolan"
+            imgURL={dagi}
+            devName="Dagmawi B. Tadesse"
             position="Senior Frontend Developer"
             classNames={"left-0 top-6"}
           />
 
           <DevCard
             imgURL={ella}
-            devName="Ella M. Michael"
-            position="Senior Backend Engineer"
+            devName="Ruth M. Solomon"
+            position="Senior UI/UX Designer"
             classNames={"right-0 bottom-6"}
           />
         </div>

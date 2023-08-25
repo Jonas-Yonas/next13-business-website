@@ -2,25 +2,38 @@
 
 import Image from "next/image";
 import { AiFillStar } from "react-icons/ai";
-// @ts-ignore
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-import "@splidejs/react-splide/css";
+
 import { reviews } from "./data/data";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+/** Swiper styles */
+import "swiper/css";
+import "swiper/css/pagination";
+
+import { Pagination } from "swiper/modules";
 
 const Testimonial = () => {
   const option = {
-    rewind: true,
-    rewindSpeed: 1000,
+    slidesPerView: 1,
+    spaceBetween: 25,
     autoplay: true,
-    autoplayTimeout: 10000,
-    autoplayHoverPause: true,
-    arrows: true,
-
-    perPage: 3,
-    width: "100%",
+    pagination: {
+      clickable: true,
+    },
     breakpoints: {
-      760: { perPage: 2, arrows: false },
-      640: { perPage: 1, arrows: false },
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      800: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+      1300: {
+        slidesPerView: 4,
+        spaceBetween: 40,
+      },
     },
   };
 
@@ -37,9 +50,9 @@ const Testimonial = () => {
       </div>
 
       <div className="flex w-full py-10">
-        <Splide options={option} aria-label="React Splide Slide">
+        <Swiper {...option} modules={[Pagination]} className="mySwiper">
           {reviews.map(({ id, name, image, rating, review }) => (
-            <SplideSlide key={id + name} className="p-4 w-full h-74">
+            <SwiperSlide key={id + name} className="p-4 w-full h-74">
               <div className="w-full h-full">
                 <div className="bg-white p-4 h-full shadow-xl rounded-xl">
                   <div className="flex gap-3 items-center">
@@ -51,7 +64,7 @@ const Testimonial = () => {
                       className="rounded-full w-14 h-14 object-cover"
                     />
 
-                    <div>
+                    <div className="flex justify-start items-center gap-2 md:flex-col md:flex-wrap lg:flex lg:flex-row">
                       <div className="flex text-[#fe5000] text-lg">
                         {Array(Math.ceil(rating))
                           .fill("")
@@ -72,9 +85,9 @@ const Testimonial = () => {
                   </div>
                 </div>
               </div>
-            </SplideSlide>
+            </SwiperSlide>
           ))}
-        </Splide>
+        </Swiper>
       </div>
     </div>
   );

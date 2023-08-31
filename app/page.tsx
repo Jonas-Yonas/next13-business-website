@@ -6,10 +6,13 @@ import {
   Team,
   Testimonial,
 } from "@/components";
+import Design from "@/components/Design";
 
 export default function Home() {
   return (
     <main className="w-full bg-[#fcfcfc]">
+      <Design />
+
       <div className="container mx-auto">
         <section className="p-5" id="home">
           <Header />
